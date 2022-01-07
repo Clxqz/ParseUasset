@@ -6,6 +6,20 @@ class Program
   public static string parsedString = "";
   public static void Main (string[] args) 
   {
+    #This is where the original src is, i just copied it here https://replit.com/@MarleyTozer/uassetParser#main.cs
+    
+    #A example used for visual studio in the hashtags below enjoy the code!
+    #Console.WriteLine("Enter File Path");
+    #string file = Console.ReadLine();
+    #Console.ForegroundColor = ConsoleColor.Yellow;
+    #Console.WriteLine($"Parsed Uasset: {file.ToString()}");
+    #Parse(file);
+    #RemoveAllEncoding(parsedString);
+    #Console.ForegroundColor = ConsoleColor.Cyan;
+    #Console.WriteLine(parsedString);
+    
+    #Replit Code Below
+    
     string filePath = "CP_Body_Commando_F_RedKnightWinter.uasset";
     Console.ForegroundColor = ConsoleColor.Yellow;
     Console.WriteLine($"Parsed Uasset: {filePath.ToString()}");
